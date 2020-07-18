@@ -1,0 +1,433 @@
+/*************************************************************
+>>>>>>>>>>>>>>>>>>>>>Fuentes utilizadas>>>>>>>>>>>>>>>>>>>>>>>
+*************************************************************/
+
+@font-face {
+    font-family: "Hand of Sean";
+    src: url(../fonts/hand_of_sean/Hand_Of_Sean_Demo.ttf);
+}
+
+.hand_of_sean {
+    font-family: "Hand of Sean";
+}
+
+@font-face {
+    font-family: "swissc";
+    src: url(../fonts/swiss_721/swissc.ttf);
+}
+
+.swissc {
+    font-family: "swissc";
+}
+
+/*************************************************************
+>>>>>>>>>>>>>>>>>>>>STILOS BANNER   >>>>>>>>>>>>>>>>>>>>>>>>>>
+*************************************************************/
+
+
+.fila1 {
+
+    margin-top: 120px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    /*background: linear-gradient( white 1%, white); */
+    background: url(../fonts/font1.jpg);
+
+}
+
+.fila1 > article {
+    margin-top: 9.5px;
+
+    background: linear-gradient(#7cda72 1%, white 99%);
+}
+
+@media (min-width: 2000px) and (max-width: 3000px) {
+
+    .contendedorBanner {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        background: url(../imagenes/fondos/fondoBanner.png);
+        background-size: 100% 100%;
+        height: 150px;
+    }
+
+    .contendedorBanner > div:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contenedorLogos {
+        margin-left: 40px;
+        margin-top: 15px;
+        width: 400px;
+    }
+
+    .contenedorLogos img:nth-child(1) {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contenedorLogos img:nth-child(2) {
+        width: 1px;
+        height: 70px;
+        margin: 10px;
+    }
+
+    .contenedorLogos img:nth-child(3) {
+        width: 90px;
+        height: 70px;
+    }
+
+    .contenedorLogos img:nth-child(4) {
+        width: 400px;
+        height: 1px;
+    }
+
+    .imagenDeBievenidaPequenio {
+        display: none;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 2000px) {
+
+    .contendedorBanner {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        background: url(../imagenes/fondos/fondoBanner.png);
+        background-size: 100% 100%;
+        height: 150px;
+    }
+
+    .contendedorBanner > div:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contenedorLogos {
+        margin-left: 40px;
+        margin-top: 15px;
+        width: 400px;
+    }
+
+    .contenedorLogos img:nth-child(1) {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contenedorLogos img:nth-child(2) {
+        width: 1px;
+        height: 70px;
+        margin: 10px;
+    }
+
+    .contenedorLogos img:nth-child(3) {
+        width: 90px;
+        height: 70px;
+    }
+
+    .contenedorLogos img:nth-child(4) {
+        width: 400px;
+        height: 1px;
+    }
+
+    .imagenDeBievenidaPequenio {
+        display: none;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+
+    .contendedorBanner {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        background: url(../imagenes/fondos/fondoBanner.png);
+        background-size: 100% 100%;
+        height: 100px;
+    }
+
+    .contendedorBanner > div:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contenedorLogos {
+        margin-left: 15px;
+        margin-top: 15px;
+        width: 400px;
+    }
+
+    .contenedorLogos img:nth-child(1) {
+        display: none;
+    }
+
+    .contenedorLogos img:nth-child(2) {
+        display: none;
+    }
+
+    .contenedorLogos img:nth-child(3) {
+        width: 70px;
+        height: 60px;
+    }
+
+    .contenedorLogos img:nth-child(4) {
+        display: none;
+    }
+    
+    .contendorSlogan{
+        display: none;
+    }
+
+    .imagenDeBievenida {
+        display: none;
+    }
+
+    .imagenDeBievenidaPequenio {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+
+    .fila1 {
+
+        margin-top: 36px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 0px 0px 10px 10px;
+        /*background: linear-gradient( white 1%, white); */
+        background: url(../fonts/font1.jpg);
+
+    }
+    
+    .imgUno{
+        width: 100%;
+    }
+    .imgDos{
+        width: 100%;
+    }
+
+
+}
+
+
+
+.contendorSlogan {
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.contendorSlogan a:link {
+    text-decoration: none;
+}
+
+.contendorSlogan a h2 {
+    color: white;
+}
+
+/*************************************************************
+>>>>>>>>>>>>>>>>>>>>STILOS CONTENDOR>>>>>>>>>>>>>>>>>>>>>>>>>>
+*************************************************************/
+
+#CONTENIDO {
+
+    min-height: 454px;
+}
+
+/*************************************************************
+>>>>>>>>>>>>>>>>>>>>COLORES         >>>>>>>>>>>>>>>>>>>>>>>>>>
+*************************************************************/
+
+.color1 {
+    background: rgb(65, 126, 128);
+}
+
+.color2 {
+    background: rgb(65, 126, 128);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/*************************************************************
+>>>>>>>>>>>>>>>>>>>>COLORES         >>>>>>>>>>>>>>>>>>>>>>>>>>
+*************************************************************/
+
+footer {
+    background: url(../imagenes/fondos/fondoBanner.png);
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 50px solid #336666;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+}
+
+
+.cen-ver {
+    margin-top: auto;
+    background: red;
+}
+
+.marado1 {
+    background: rgb(28, 5, 58);
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.fondoBanner-titulo {
+    margin: auto;
+    background: url(../imagenes/fondos/bannerNovedad.png);
+    background-size: 100% 100%;
+    max-width: 600px;
+    min-height: 90px;
+    padding-top: 50x;
+}
+
+.fondoBanner-titulo h2 {
+    padding-top: 0.8em;
+    font-size: 2em;
+
+
+}
+
+.formulario {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+
+}
+
+.blanco {
+    color: white;
+}
+
+.table {}
+
+.table tr {}
+
+.table tr th:last-child {
+    text-align: center;
+
+}
+
+.table tr td:last-child {
+
+    text-align: right;
+
+}
+
+.tamanio {
+    float: right;
+    width: 100%;
+    padding: 1px;
+
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../imagenes/fondos/cargando.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    opacity: .7;
+}
+
+
+/* Infomacion de datos */
+.infoDatos {
+    margin: 1%;
+
+}
+
+.infoDatos dl {
+    padding: 1%;
+}
+
+.infoDatos dl dt {
+    padding-top: 10px;
+}
+
+.infoDatos dl dd {
+    padding-top: 10px;
+}
+
+.alerta {}
+
+
+
+/* atributos de boostrap para header
+
+small nos marca como texto secundario esto tambien lo podemos remplazar con un spal clas small
+
+para parrafos podemosutilizar las clases.
+
+lead    => reslata el texto entre los demas
+<mark>  =>marcar el text con un ligero subrayado
+del     => tachar para deciar que se a borrado
+s       =>  /\
+<ins>   => se a aÃƒÂ±adido un texto.
+u       => subrayado.
+strong  => negrita.
+b         => aubrayado.
+em        => italica.
+text-lef  => alineacion de texto;
+center
+right
+justify
+
+text-lowercase => mayuscular compertidas a minusulas
+text-oppercase => text mayusculas
+text-capitalize => primera letra mayuscular.
+blockquote
+blockquote-reverse = testo alineado a la derecha
+footer => resalta la citaciÃƒÂ³n
+cite (title title="fuente")
+
+pre => bloque de codigo;
+
+*/
+
+.padding-10 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+
+.margin-top {
+    margin-top: 0px;
+}
+
+.padding-top-em {
+    margin-top: 1.5em;
+}
+
+.margin-top-em {
+    margin-top: 5em;
+}
+
+
+
+.formualrio {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
