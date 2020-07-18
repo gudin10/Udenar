@@ -1,0 +1,4 @@
+Para entrar como administrador
+
+user: 	215034181
+passw:	utilizar
